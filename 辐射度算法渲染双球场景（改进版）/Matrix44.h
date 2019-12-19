@@ -1,0 +1,18 @@
+
+#pragma once
+
+class CMatrix44 //4°¡4æÿ’Û 
+{
+public:
+	CMatrix44();
+	virtual ~CMatrix44();
+	void LoadZero();//¡„æÿ’Û
+	void LoadIdentity();//µ•Œª’Û
+	CMatrix44 Transpose();
+	friend CMatrix44 operator+ (const CMatrix44 &m1, const CMatrix44 &m2);//æÿ’Û°∞+°±
+	friend CMatrix44 operator- (const CMatrix44 &m1, const CMatrix44 &m2);//æÿ’Û°∞-°±
+	friend CMatrix44 operator* (const CMatrix44 &m1, const double scalar);//æÿ’Û ˝≥À
+	friend CMatrix44 operator* (const CMatrix44 &m1, const CMatrix44 &m2);//æÿ’Û°∞*°±
+public:
+	double matrix[4][4];
+};
