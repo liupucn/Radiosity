@@ -1,4 +1,4 @@
-# Sphere-GouraudShader
+# Cornell Box
 基于MFC 光栅化图形学 辐射度算法
 
 运行效果：
