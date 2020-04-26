@@ -4,4 +4,4 @@
 运行效果：
 
 
-![Image text](https://github.com/liupucn/Radiosity/raw/master/image/辐射度.png)
+![Image text](https://s1.ax1x.com/2020/04/27/JRQ5i6.png)
